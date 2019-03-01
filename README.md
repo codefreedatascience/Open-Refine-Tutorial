@@ -51,4 +51,23 @@
 3. The default separator is a comma, but if your values are separated by a space or bracket you can enter that here. For this example, we're also going to **split into 2 columns at most** for this example, but this will depend on how many values you have in your column.
 4. If you want to keep your original column, be sure to uncheck **Remove this column**. Then click **OK**
 **INSERT PHOTO 13 HERE**
+5. Another option in OpenRefine is to do the opposite and concatenate strings and/or values from two or more columns together. In this example, we're going to join our Company_Name and Company_Location column.
+6. To start, **open the drop-down menu in the column we want to add to -> select edit column -> add column based on this column**
+**INSERT PHOTO 14 HERE**
+7. To perform this function, we need to write a GREL expression. If you're unfamiliar with GREL expressions, no need to panic! OpenRefine has their own [repository](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions) that goes through the basics of writing GREL expressions. You can also write your expressions in Python if you're familiar with the language
+8. For now, we'll work through this expression together. In our example, we want to create a string that is the company name, a space, and then the company location in parentheses.
+**INSERT PHOTO 15 HERE**
+9. In our expression in the above photo, **value** refers to the value of the current column - in our case, Company_Location. Since we want to refer to another column in our expression (we're using Company_Name in this example), we'll use the term **cells**. From there, we'll write the name of the column we're combining with, then .value.
+10. So, the first part of our expression should read **cells.Company_Name.value**
+**INSERT PHOTO 16 HERE**
+11. Next, we're going to use a plus sign to join the different values together into one long string. In our expression, we'll type **+"("+value+")"** When you're done, your whole string should look like this -> **cells.Company_Name.value+"("+value+")"**
+12. You'll notice that as you're typing the expression, the preview at the bottom changes to show you what the resulting value will be. This preview is very helpful when writing GREL expressions, especially if you're not overly familiar with how to do it. Once you're finished writing your expression, **click OK**. Your new column should now appear in your dataset.
+**INSERT PHOTO 17 HERE**
+
+### Restructuring the Dataset
+1. If you're new to OpenRefine, there's no doubt that you'll make mistakes or want to go back a few steps. Fortunately, it's easy to do with OpenRefine's undo/redo feature. To access it, **click the undo/redo tab above where the facets and filters usually appear**
+**
+2. In this tab, you can see all of the steps you've taken that outline what you've done to your dataset. To go back to a previous version, just click on the last step you were happy with.
+3. If you click back to previous steps, everything after those steps will be greyed out. You can still go forward to the greyed out steps, but be aware that if you go back a previous step and the start making new changes and transformations, all of the subsequent steps will be erased permanently.
+
 
