@@ -37,10 +37,8 @@
 > You can also create customized facets depending on what kind of data you're working with. For now, 
 > we'll stick with Text facets, as they are most common
 6. Now, our facet is showing us how many total values there are in this column, how many rows contain each value, and the option to sort the values by name or count
-
 > ![photo7](https://user-images.githubusercontent.com/46492847/53643110-41516d00-3c01-11e9-91ac-7ca99b6bcf66.png)
 7. Facets are a helpful way to sort data because they can point out inconsistencies and errors in the data. In this example, we can see that we have a value called "italy" with a lowercase "i", and another value called "Italy" with an uppercase "I". There's a good chance that these values are referring to the same thing, and there are two ways to change this so that these values are represented by the same thing.
-
 > ![photo8](https://user-images.githubusercontent.com/46492847/53643138-4f9f8900-3c01-11e9-85be-03be2800ff89.png)
 8. Our first option is to **click directly on the value we want to change -> click edit** and then make the necessary changes
 > ![photo9](https://user-images.githubusercontent.com/46492847/53643158-59c18780-3c01-11e9-8789-c3c33c056d53.png)
@@ -59,7 +57,6 @@
 > ![photo13](https://user-images.githubusercontent.com/46492847/53643222-870e3580-3c01-11e9-8a6c-37fcf13986d2.png)
 5. Another option in OpenRefine is to do the opposite and concatenate strings and/or values from two or more columns together. In this example, we're going to join our Company_Name and Company_Location column.
 6. To start, **open the drop-down menu in the column we want to add to -> select edit column -> add column based on this column**
-
 > ![photo14](https://user-images.githubusercontent.com/46492847/53643238-92616100-3c01-11e9-99e5-ecc94580379d.png)
 7. To perform this function, we need to write a GREL expression. If you're unfamiliar with GREL expressions, no need to panic! OpenRefine has their own [repository](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions) that goes through the basics of writing GREL expressions. You can also write your expressions in Python if you're familiar with the language
 8. For now, we'll work through this expression together. In our example, we want to create a string that is the company name, a space, and then the company location in parentheses.
@@ -73,7 +70,6 @@
 
 ### Restructuring the Dataset
 1. If you're new to OpenRefine, there's no doubt that you'll make mistakes or want to go back a few steps. Fortunately, it's easy to do with OpenRefine's undo/redo feature. To access it, **click the undo/redo tab above where the facets and filters usually appear**
-
 > ![photo18](https://user-images.githubusercontent.com/46492847/53643340-cccafe00-3c01-11e9-9c82-abcd7d5aae9d.png)
 2. In this tab, you can see all of the steps you've taken that outline what you've done to your dataset. To go back to a previous version, just click on the last step you were happy with.
 3. If you click back to previous steps, everything after those steps will be greyed out. You can still go forward to the greyed out steps, but be aware that if you go back a previous step and the start making new changes and transformations, all of the subsequent steps will be erased permanently.
