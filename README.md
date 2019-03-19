@@ -33,7 +33,7 @@ Feel free to work through this workshop using the included [CSV file](chocolate.
 > ![photo6](https://user-images.githubusercontent.com/46492847/53643078-2979e900-3c01-11e9-9e57-dd0ba7d76bec.png)
 4. Facets are a similar, but more sophisticated way of selecting which data you want to analyze or work with. Unlike filters, facets summarize all of the values that appear in the column. From there you can select which data you want to view, and also edit the data if you wish.
 5. To create a facet, **open the drop-down menu in the column you want to facet -> choose text facet**
-> It's worth noting here that there are multiple kinds of facets, including Numeric and Timeline facets
+> It's worth noting here that there are multiple kinds of facets, including Numeric and Timeline facets.
 > You can also create customized facets depending on what kind of data you're working with. For now, 
 > we'll stick with Text facets, as they are most common
 6. Now, our facet is showing us how many total values there are in this column, how many rows contain each value, and the option to sort the values by name or count
