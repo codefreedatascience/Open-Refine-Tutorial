@@ -3,7 +3,7 @@
 [@brock_dsl](https://twitter.com/brock_dsl)
 
 # Open-Refine-Workshop
-## Feel free to work through this workshop using the included [CSV file](chocolate.csv), or any messy data set you have
+Feel free to work through this workshop using the included [CSV file](chocolate.csv), or any messy data set you have
 
 ### Opening the Dataset 
 1. Start up OpenRefine - ensure you're in **create project** mode
