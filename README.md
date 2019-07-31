@@ -2,7 +2,7 @@
 
 [@brock_dsl](https://twitter.com/brock_dsl)
 
-# Open-Refine-Workshop
+# Open-Refine-Tutorial
 Feel free to work through this tutorial using the included [CSV file](chocolate.csv), or any messy data set you have
 
 ### Opening the Dataset 
