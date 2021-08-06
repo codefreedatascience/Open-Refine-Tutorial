@@ -1,6 +1,4 @@
-![DSL Logo]() 
 
-[]()
 
 # Open-Refine-Tutorial
 Feel free to work through this tutorial using the included [CSV file](chocolate.csv), or any messy data set you have
