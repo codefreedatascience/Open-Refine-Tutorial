@@ -27,7 +27,7 @@ When-Now data analysis play an important role in business. Data analysts improve
 
 ### Why OpenRefine is a better tool?
 
-![](openrefineplus.png)
+![](openrefineplus.PNG)
 
 ### Opening the Dataset 
 1. Start up OpenRefine - ensure you're in **create project** mode
