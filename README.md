@@ -13,6 +13,20 @@ Feel free to work through this tutorial using the included [CSV file](chocolate.
 5. Better than others tool for text data  
 
 
+### Big Data
+
+The big idea behind choosing OpenRefine as our tool is to provide a tutorial by which users can have a free and an open source tool to manipulate their data sets. OpenRefine provides the flexibility to choose from a variety of data set functionalities, which makes it even more user friendly. Users can use this tool to get a big view of their data in terms of statistically curved graphs. They can play with messy data without worrying about risks, since they can undo their activity at any time. Cleaning, transforming and fetching URLs for a dataset can be easily done by simply having the application downloaded in the system.
+
+What –A messy, unstructured, inconsistent dataset can be explored using open refine. In general, it will be very difficult to explore data through redundancies and inconsistencies.
+But, OpenRefine gives several functions through which one can filter the data, edit the inconsistencies, and view the data. It’s a tool to clean the data.
+
+
+Why- Spreadsheets can also refine a dataset but they are not the best tool for it as Openrefine cleans data in a more systematic controlled manner. While using historical data, we come across issues like blank fields, duplicate records, inconsistent formats and using Openrefine tool can help to resolve such issues.
+
+When-Now data analysis play an important role in business. Data analysts improve decision making, cut costs and identify new business opportunities. Analysis of data is a process of inspecting, cleaning, transforming, and modelling data with the goal of discovering useful information, suggesting conclusions, and supporting decision making. So, to ensure the accuracy of our analysis, we have to clean our data
+
+
+
 
 ### Opening the Dataset 
 1. Start up OpenRefine - ensure you're in **create project** mode
