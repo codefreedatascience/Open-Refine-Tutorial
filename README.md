@@ -3,6 +3,17 @@
 # Open-Refine-Tutorial
 Feel free to work through this tutorial using the included [CSV file](chocolate.csv), or any messy data set you have
 
+
+### Introduction
+
+1. It is an open source tool
+2. Openrefine is a data manipulation tool 
+3. To cleans, reshapes and intelligently edit batch messy, and unstructured data. 
+4. Openrefine is easy as excel and powerful like access database.
+5. Better than others tool for text data  
+
+
+
 ### Opening the Dataset 
 1. Start up OpenRefine - ensure you're in **create project** mode
 2. Load the desired files into OpenRefine and click **next**
