@@ -29,9 +29,13 @@ When-Now data analysis play an important role in business. Data analysts improve
 ### Background
 
 •	Google Refine finds its root in the Freebase Gridworks solution developed by Metaweb Technologies, Inc. in May 2010.
+
 •	Initially it was a tool designed to support the Freebase database and community for data cleaning, reconciliation and upload.
+
 •	This historical link with Freebase is still present in Google Refine, as the solution supports reconciliation against Freebase database.
+
 •	In July 2010 Google acquired Metaweb and by extension, Freebase and Gridworks. Freebase Gridworks has been renamed Google Refine and the code and documentation moved to a code.google.com instance.
+
 •	The freshly renamed Google Refine continued to be an open source project for data cleaning.
 
 
