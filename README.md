@@ -25,6 +25,17 @@ Why- Spreadsheets can also refine a dataset but they are not the best tool for i
 
 When-Now data analysis play an important role in business. Data analysts improve decision making, cut costs and identify new business opportunities. Analysis of data is a process of inspecting, cleaning, transforming, and modelling data with the goal of discovering useful information, suggesting conclusions, and supporting decision making. So, to ensure the accuracy of our analysis, we have to clean our data
 
+
+### Background
+
+•	Google Refine finds its root in the Freebase Gridworks solution developed by Metaweb Technologies, Inc. in May 2010.
+•	Initially it was a tool designed to support the Freebase database and community for data cleaning, reconciliation and upload.
+•	This historical link with Freebase is still present in Google Refine, as the solution supports reconciliation against Freebase database.
+•	In July 2010 Google acquired Metaweb and by extension, Freebase and Gridworks. Freebase Gridworks has been renamed Google Refine and the code and documentation moved to a code.google.com instance.
+•	The freshly renamed Google Refine continued to be an open source project for data cleaning.
+
+
+
 ### Why OpenRefine is a better tool?
 
 ![](openrefineplus.PNG)
