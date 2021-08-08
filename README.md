@@ -1,7 +1,7 @@
 
 ![](dsl_logo.png)
 
-# Open-Refine-Tutorial
+
 
 
 ### Installation
