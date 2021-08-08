@@ -9,7 +9,7 @@
 It is an open source tool and you can go to the website “http://openrefine.org/download.html” and download and unzip it. Then run google- refine.exe and it will automatically open a browser window to start Openrefine.
 
 
- ### FAQ
+### FAQ
  
  1. OpenRefine opens on my browser. So do I require internet to run it? Ans: No. OpenRefine doesn’t require internet for running. It’s a normal application, however runs on a local server.
 2. What is the index of the first characteristic of one cell? Ans: It should be 0. So if you want the first two characteristic, you should write as value[0,1].
