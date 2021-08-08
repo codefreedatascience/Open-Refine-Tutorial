@@ -17,6 +17,17 @@ It is an open source tool and you can go to the website “http://openrefine.org
 4. Is my data safe in Openrefine? Ans: Yes it is safe because it runs on local server and data is stored on your computer’s directory.
 
 
+### Strengths and Weaknesses
+
+**Strengths:**
+1. OpenRefine is a desktop application. It opens in the browser as a Local Webserver. So, the data is safe and it doesn’t get uploaded to the Google server.
+2.	It has facets which is used to filter the data into subsets and these clusters can be customized and organised into meaningful data.
+3.	It has a Browser based interface, and so can handle more data efficiently.
+4.	Openrefine has a strong feature in extending data -- user can use it to find Meta Data and it can be used to correlate with it.
+
+**Weaknesses:**
+1. The UI of Openrefine is not user friendly. Although the features and functions are strong, the UI make Openrefine looks boring. Besides, in the visualization, the function is not scalable. For instance, Openrefine give user a view of data, but the image is not big enough to figure out complex distribution.
+2.	Unfortunately Google has removed support for this tool, making few of its features redundant.
 
 
 ### Dataset
