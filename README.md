@@ -2,6 +2,15 @@
 ![](dsl_logo.png)
 
 # Open-Refine-Tutorial
+
+
+### Installation
+
+It is an open source tool and you can go to the website “http://openrefine.org/download.html” and download and unzip it. Then run google- refine.exe and it will automatically open a browser window to start Openrefine.
+ 
+
+
+### Dataset
 Feel free to work through this tutorial using the included [CSV file](chocolate.csv), or any messy data set you have
 
 ### Introduction
